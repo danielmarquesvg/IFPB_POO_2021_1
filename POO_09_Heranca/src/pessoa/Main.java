@@ -8,7 +8,8 @@ public class Main {
 		Pessoa novaPessoa = new Pessoa(nome);
 		
 		nome = "Daniel";
-		Daniel novoDaniel = new Daniel(nome);
+		int idade = 30;
+		Daniel novoDaniel = new Daniel(nome, idade);
 		
 		//comparando a risada de uma pessoa normal e de Daniel
 		System.out.println("Risada da superclasse (Pessoa): " + novaPessoa.rir());

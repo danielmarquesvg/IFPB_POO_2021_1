@@ -8,8 +8,42 @@ public class Main {
 		String nome = "Pedro";
 		String cpf = "111.222.333-44";
 		double salario = 1500;
+		Funcionario funcionario1 = new Funcionario(nome, cpf, salario);
+		
+		nome = "Daniel";
+		cpf = "222.333.444-55";
+		salario = 1000;
+		Funcionario funcionario2 = new Funcionario(nome, cpf, salario);
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		int senha = 123456;
 		int numeroDeFuncionarios = 10;
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		// criacao do objeto
 		Gerente2 meuGerente2 = new Gerente2(nome, cpf, salario, senha, numeroDeFuncionarios);
